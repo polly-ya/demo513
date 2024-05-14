@@ -92,9 +92,7 @@ router.get('/static', async (req, res) => {
 
 app.use(router)
 
+// start
 app.listen('8001', () => {
     console.log('serve is running...');
 })
-
-
-// world
